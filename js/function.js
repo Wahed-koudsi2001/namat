@@ -78,27 +78,6 @@
 	}
 
 	/* testimonial Slider JS */
-	if ($('.testimonial-slider').length) {
-		const testimonial_slider = new Swiper('.testimonial-slider .swiper', {
-			slidesPerView: 1,
-			speed: 1000,
-			spaceBetween: 60,
-			loop: true,
-			autoplay: {
-				delay: 5000,
-			},
-			breakpoints: {
-				768: {
-					slidesPerView: 1,
-				},
-				991: {
-					slidesPerView: 1,
-				}
-			}
-		});
-	}
-
-	/* testimonial Slider JS */
 	if ($('.our-client-slider').length) {
 		const testimonial_slider = new Swiper('.our-client-slider .swiper', {
 			slidesPerView: 2,
@@ -319,33 +298,27 @@
 	/* Contact form validation end */
 
 	/* Our Project (filtering) Start */
-	$window.on("load", function () {
-		if ($(".project-item-boxes").length) {
-
+	$(window).on("load", function () {
+		if ($(".gallery-items").length) {
 			/* Init Isotope */
-			var $menuitem = $(".project-item-boxes").isotope({
-				itemSelector: ".project-item-box",
+			var $menuitem = $(".gallery-items").isotope({
+				itemSelector: ".gallery-item", // Changed to target gallery-item class
 				layoutMode: "masonry",
 				masonry: {
-					// use outer width of grid-sizer for columnWidth
-					columnWidth: 1,
+					columnWidth: ".gallery-item", // Use gallery-item for column width
 				}
 			});
 
 			/* Filter items on click */
 			var $menudisesnav = $(".our-Project-nav li a");
 			$menudisesnav.on('click', function (e) {
-
 				var filterValue = $(this).attr('data-filter');
-				$menuitem.isotope({
-					filter: filterValue
-				});
+				$menuitem.isotope({ filter: filterValue });
 
 				$menudisesnav.removeClass("active-btn");
 				$(this).addClass("active-btn");
 				e.preventDefault();
 			});
-			$menuitem.isotope({ filter: "*" });
 		}
 	});
 	/* Our Project (filtering) End */
