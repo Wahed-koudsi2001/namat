@@ -3395,7 +3395,7 @@ header.main-header .header-sticky.active .navbar {
 	}
 
 	.page-header {
-		padding: 180px 0 100px;
+		padding: 300px 0 100px;
 		margin-top: -92px;
 	}
 
@@ -3940,6 +3940,7 @@ header.main-header .header-sticky.active .navbar {
 
 	.footer-logo {
 		margin-bottom: 20px;
+		margin: 0 auto 25px;
 	}
 
 	.footer-social-links {
