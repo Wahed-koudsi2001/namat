@@ -3762,7 +3762,7 @@ header.main-header .header-sticky.active .navbar {
 	}
 
 	.hero-content .btn-default.btn-highlighted {
-		margin: 0;
+		margin: 0 0 10px 0;
 	}
 
 	.about-us-images {
