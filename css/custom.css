@@ -1048,7 +1048,7 @@ header.main-header .header-sticky.active .navbar {
 
 .why-choose-item {
 	display: flex;
-	border-bottom: 1px solid var(--divider-color);
+	border-bottom: 1px solid var(--accent-color);
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
