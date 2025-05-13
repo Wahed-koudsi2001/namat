@@ -1727,8 +1727,8 @@ header.main-header .header-sticky.active .navbar {
 	align-items: center;
 	background: var(--white-color);
 	border-radius: 50%;
-	height: 36px;
-	width: 36px;
+	height: 40px;
+	width: 40px;
 	transition: all 0.3s ease-in-out;
 }
 
