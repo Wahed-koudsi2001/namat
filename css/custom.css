@@ -934,10 +934,11 @@ header.main-header .header-sticky.active .navbar {
 	border: 1px solid var(--divider-color);
 	width: 1px;
 	height: 100%;
+	display: none;
 }
 
 .about-us-content-info {
-	width: calc(50% - 40px);
+	width: 100%;
 }
 
 .about-us-content-list {
