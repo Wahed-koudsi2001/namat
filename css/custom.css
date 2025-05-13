@@ -320,7 +320,7 @@ body {
 .section-title h3 {
 	display: inline-block;
 	position: relative;
-	font-size: 16px;
+	font-size: 24px;
 	font-weight: 500;
 	line-height: 1.6em;
 	text-transform: capitalize;
@@ -1884,7 +1884,7 @@ header.main-header .header-sticky.active .navbar {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 400px 0 150px;
+	padding: 300px 0 100px;
 	margin-top: -118px;
 }
 .page-header-projects {
@@ -2101,7 +2101,7 @@ header.main-header .header-sticky.active .navbar {
 }
 
 .vision-mission-content h3 {
-	font-size: 20px;
+	font-size: 24px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
