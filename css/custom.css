@@ -1965,6 +1965,7 @@ header.main-header .header-sticky.active .navbar {
 .about-facility-item {
 	width: calc(33.33% - 20px);
 	display: flex;
+	align-items: center;
 }
 
 .about-facility-item .icon-box {
