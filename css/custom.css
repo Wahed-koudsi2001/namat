@@ -788,6 +788,7 @@ header.main-header .header-sticky.active .navbar {
 	color: var(--white-color);
 	width: 100%;
 	max-width: 1000px;
+	font-weight: 600;
 }
 
 .hero-content .section-title h3::before {
@@ -795,7 +796,7 @@ header.main-header .header-sticky.active .navbar {
 }
 
 .hero-content .btn-default.btn-highlighted {
-	margin-right: 30px;
+	margin-left: 10px;
 }
 
 /************************************/
