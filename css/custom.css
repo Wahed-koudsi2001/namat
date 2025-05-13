@@ -1887,6 +1887,9 @@ header.main-header .header-sticky.active .navbar {
 	padding: 400px 0 150px;
 	margin-top: -118px;
 }
+.page-header-projects {
+	background: url("../images/hero-bg-2.jpg")
+}
 
 .page-header::before {
 	content: "";
